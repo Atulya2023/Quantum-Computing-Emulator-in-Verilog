@@ -24,4 +24,4 @@ O[k] = \sum \left( G[k+n]_{\text{Real}} \times I[n]_{\text{Real}} - G[k+n]_{\tex
 ```
 
 
-Where ```math G``` is the operator matrix, ```math I``` the input matrix and ```math O``` the output matrix.
+Where $`G`$ is the operator matrix, $`I`$ the input matrix and $`O`$ the output matrix.
