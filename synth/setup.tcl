@@ -6,7 +6,7 @@
   set modname MyDesign
 
 # set variable "RTL_DIR" to the HDL directory w.r.t synthesis directory
-  set RTL_DIR    ../v
+  set RTL_DIR    ../rtl
 
 # set variable "type" to a name that distinguishes this synthesis run
   set type tut1
