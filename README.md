@@ -16,3 +16,6 @@ This repository contains the verilog implementation of a Quantum Computing Emula
 $$
 O[k] = \sum \left( G[k+n]_{\text{Real}} \cdot I[n]_{\text{Real}} - G[k+n]_{\text{Imag}} \cdot I[n]_{\text{Imag}} \right)
 $$
+```math
+O[k] = \sum \left( G[k+n]_{\text{Real}} \cdot I[n]_{\text{Real}} - G[k+n]_{\text{Imag}} \cdot I[n]_{\text{Imag}} \right)
+```
