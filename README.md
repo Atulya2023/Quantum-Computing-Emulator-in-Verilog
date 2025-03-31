@@ -12,6 +12,16 @@ This repository contains the verilog implementation of a Quantum Computing Emula
 | ...          | ...                                 | ...                                  |
 | x2\(^N\)     | Real Coefficient of \|2<sup>N</sup>-1&#9002; | Imaginary Coefficient of \|2<sup>N</sup>-1&#9002; |
 
+**Gates SRAM**, that contains the values of the elements in the N-qubit gate matrices stored
+in row-order.
+The circuit also assumes the availability of two empty SRAMs. One where the output is
+to be stored and the other an empty SRAM to be used to offload memory during the
+simulation.
+
+The order of operations for multiplying two matrices are as follows:
 ```math
-O[k] = \sum \left( G[k+n]_{\text{Real}} \times \I[n]_{\text{Real}} - G[k+n]_{\text{Imag}} \times I[n]_{\text{Imag}} \right)
+O[k] = \sum \left( G[k+n]_{\text{Real}} \times I[n]_{\text{Real}} - G[k+n]_{\text{Imag}} \times I[n]_{\text{Imag}} \right)
 ```
+
+
+Where ```G``` is the operator matrix, ```I``` the input matrix and ```O``` the output matrix.
