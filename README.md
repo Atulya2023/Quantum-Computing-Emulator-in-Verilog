@@ -12,10 +12,6 @@ This repository contains the verilog implementation of a Quantum Computing Emula
 | ...          | ...                                 | ...                                  |
 | x2\(^N\)     | Real Coefficient of \|2<sup>N</sup>-1&#9002; | Imaginary Coefficient of \|2<sup>N</sup>-1&#9002; |
 
-
-$$
-O[k] = \sum \left( G[k+n]_{\text{Real}} \cdot I[n]_{\text{Real}} - G[k+n]_{\text{Imag}} \cdot I[n]_{\text{Imag}} \right)
-$$
 ```math
-O[k] = \sum \left( G[k+n]_{\text{Real}} \cdot I[n]_{\text{Real}} - G[k+n]_{\text{Imag}} \cdot I[n]_{\text{Imag}} \right)
+O[k] = \sum \left( G[k+n]_{\text{Real}} \times \I[n]_{\text{Real}} - G[k+n]_{\text{Imag}} \times I[n]_{\text{Imag}} \right)
 ```
