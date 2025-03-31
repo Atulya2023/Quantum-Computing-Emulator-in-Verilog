@@ -1,0 +1,4 @@
+area = 47383.1123 um^2
+number of cycles = 2601
+clock period = 30.5 ns
+performance = 3758925966.516
